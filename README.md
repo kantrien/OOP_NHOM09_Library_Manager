@@ -7,8 +7,8 @@
 | Phần | Các lớp chính |
 |---|---|
 | Mô hình hóa dữ liệu | `LibraryItem`, `Book`, `Magazine`, `Thesis` |
-| Quản lý kho dữ liệu | `LibraryRepository`, `InMemoryLibraryRepository`, `MockDataGenerator` |
-| Lưu trữ & Tiện ích | `FileService`, `LoanCsvExportService`, `ValidationUtil` |
+| Quản lý kho dữ liệu | `LibraryRepository`, `InMemoryLibraryRepository`, `MockDataGenerator`, `LibraryService` |
+| Lưu trữ & Tiện ích | `FileService`, `LoanCsvExportService`, `ValidationUtil`, `DataPersistenceService`, `AppData`,`LoanExcelExportService`  |
 | Xử lý JTable | `ItemTableModel`, `LoanTableModel`, `LoanTableCellRenderer` |
 | Giao diện Thêm/Sửa | `ItemFormDialog`, `FormUIHelper` |
 | Nghiệp vụ Mượn/Trả | `LoanRecord`, `LoanService` |
@@ -36,10 +36,3 @@
 - Swing.
 - JFreeChart 1.5.6.
 - JUnit 5 cho kiểm thử.
-
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> f5e569c64386cac1c2c213f90f9b0efb5e65a36a
