@@ -35,4 +35,3 @@
 - Maven.
 - Swing.
 - JFreeChart 1.5.6.
-- JUnit 5 cho kiểm thử.
