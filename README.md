@@ -1,20 +1,20 @@
-# Library Manager - Nhóm 1
+# Library Manager - Nhóm 9
 
 Ứng dụng quản lý thư viện viết bằng Java Swing, package `vn.edu.ptit.oop.nhom09`.
 
 ## Đối chiếu bảng phân công
 
-| Phần | Các lớp chính |
-|---|---|
-| Mô hình hóa dữ liệu | `LibraryItem`, `Book`, `Magazine`, `Thesis` |
-| Quản lý kho dữ liệu | `LibraryRepository`, `InMemoryLibraryRepository`, `MockDataGenerator`, `LibraryService` |
-| Lưu trữ & Tiện ích | `FileService`, `LoanCsvExportService`, `ValidationUtil`, `DataPersistenceService`, `AppData`,`LoanExcelExportService`  |
-| Xử lý JTable | `ItemTableModel`, `LoanTableModel`, `LoanTableCellRenderer` |
-| Giao diện Thêm/Sửa | `ItemFormDialog`, `FormUIHelper` |
-| Nghiệp vụ Mượn/Trả | `LoanRecord`, `LoanService` |
-| Giao diện Mượn/Trả & Tính phạt | `LoanDialog`, `FineCalculator`, `BookFine`, `MagazineFine`, `ThesisFine` |
-| Thống kê & Đồ thị | `ChartWindow`, `ChartHelper` |
-| Kiểm thử, xử lý lỗi & Báo cáo | `ItemNotFoundException`, `InvalidDataException`, `OverdueException`, `AboutDialog`, `LibraryManagerTest` |
+|Tên| Phần | Các lớp chính |
+|---|---|---|
+| Tâm | Mô hình hóa dữ liệu | `LibraryItem`, `Book`, `Magazine`, `Thesis` |
+| Minh | Quản lý kho dữ liệu | `LibraryRepository`, `InMemoryLibraryRepository`, `MockDataGenerator`, `LibraryService` |
+| Hiếu | Lưu trữ & Tiện ích | `FileService`, `LoanCsvExportService`, `ValidationUtil`, `DataPersistenceService`, `AppData`,`LoanExcelExportService`  |
+| Sơn | Xử lý JTable | `ItemTableModel`, `LoanTableModel`, `LoanTableCellRenderer` |
+| Nguyên | Giao diện Thêm/Sửa | `ItemFormDialog`, `FormUIHelper` |
+| Vương | Nghiệp vụ Mượn/Trả | `LoanRecord`, `LoanService` |
+| Lâm | Giao diện Mượn/Trả & Tính phạt | `LoanDialog`, `FineCalculator`, `BookFine`, `MagazineFine`, `ThesisFine` |
+| Sang | Thống kê & Đồ thị | `ChartWindow`, `ChartHelper` |
+| Hải | Kiểm thử, xử lý lỗi & Báo cáo | `ItemNotFoundException`, `InvalidDataException`, `OverdueException`, `AboutDialog`, `LibraryManagerTest` |
 
 ## Chức năng
 
