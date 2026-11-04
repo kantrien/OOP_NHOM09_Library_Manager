@@ -15,7 +15,7 @@
 | Lâm | Giao diện Mượn/Trả & Tính phạt | `LoanDialog`, `FineCalculator`, `BookFine`, `MagazineFine`, `ThesisFine` |
 | Sang | Thống kê & Đồ thị | `ChartWindow`, `ChartHelper` |
 | Hải | Kiểm thử, xử lý lỗi & Báo cáo | `ItemNotFoundException`, `InvalidDataException`, `OverdueException`, `AboutDialog`, `LibraryManagerTest` |
-
+| Kiên | Giao diện chính | `Main`, `MainWindow` , `BaseWindow` |
 ## Chức năng
 
 - Quản lý sách, tạp chí và luận văn.

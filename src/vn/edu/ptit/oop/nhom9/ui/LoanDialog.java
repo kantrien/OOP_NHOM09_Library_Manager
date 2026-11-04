@@ -1,4 +1,4 @@
-package vn.edu.ptit.oop.nhom09.ui;
+package vn.edu.ptit.oop.nhom9.ui;
 
 import java.awt.BorderLayout;
 import java.awt.Dialog;
@@ -15,9 +15,9 @@ import javax.swing.JPanel;
 import javax.swing.JSpinner;
 import javax.swing.JTextField;
 import javax.swing.SpinnerDateModel;
-import vn.edu.ptit.oop.nhom09.exception.InvalidDataException;
-import vn.edu.ptit.oop.nhom09.model.LibraryItem;
-import vn.edu.ptit.oop.nhom09.model.LoanRecord;
+import vn.edu.ptit.oop.nhom9.exception.InvalidDataException;
+import vn.edu.ptit.oop.nhom9.model.LibraryItem;
+import vn.edu.ptit.oop.nhom9.model.LoanRecord;
 
 public class LoanDialog extends JDialog {
     private final LibraryItem item;

@@ -1,4 +1,4 @@
-package vn.edu.ptit.oop.nhom09.service.fine;
+package vn.edu.ptit.oop.nhom9.service.fine;
 
 public class ThesisFine implements FineCalculator {
     private static final long FINE_PER_DAY = 3000L;
