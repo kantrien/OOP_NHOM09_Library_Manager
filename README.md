@@ -37,26 +37,6 @@
 - JFreeChart 1.5.6.
 - JUnit 5 cho kiểm thử.
 
-## Chạy trên Windows
 
-1. Giải nén ZIP.
-2. Mở thư mục `LibraryManager` chứa `pom.xml`, `src` và `run.bat`.
-3. Cài JDK 17 trở lên.
-4. Nhấn đúp `run.bat`. Lần đầu cần Internet để tải JFreeChart.
 
-`run.bat` cũng tự tìm thư mục `LibraryManager` con nếu bạn đặt file ở thư mục ngoài cùng.
 
-## Chạy bằng Maven
-
-Trong thư mục có `pom.xml`, chạy:
-
-```bash
-mvn clean test
-mvn exec:java
-```
-
-## Trước khi nộp
-
-- Mở `AboutDialog.java` và thay 10 dòng placeholder bằng họ tên/MSSV chính xác của thành viên.
-- Xác nhận mức tiền phạt với nhóm. Mức đang dùng chỉ là mức minh họa: sách 2.000 đồng/ngày, tạp chí 1.000 đồng/ngày, luận văn 3.000 đồng/ngày.
-- Khi chưa có lượt mượn thực tế, biểu đồ cột hiển thị dữ liệu minh họa và ghi rõ đây không phải số liệu thật.
