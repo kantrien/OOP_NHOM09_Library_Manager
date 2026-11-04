@@ -4,3 +4,4 @@
 /sources.txt
 /data/*.dat
 *.class
+!lib/*.jar
