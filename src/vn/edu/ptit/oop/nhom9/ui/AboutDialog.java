@@ -12,22 +12,22 @@ import javax.swing.table.DefaultTableModel;
 
 public class AboutDialog extends JDialog {
     private static final String[][] TEAM_MEMBERS = {
-        {"[Điền họ tên thành viên 1]", "[Điền MSSV]"},
-        {"[Điền họ tên thành viên 2]", "[Điền MSSV]"},
-        {"[Điền họ tên thành viên 3]", "[Điền MSSV]"},
-        {"[Điền họ tên thành viên 4]", "[Điền MSSV]"},
-        {"[Điền họ tên thành viên 5]", "[Điền MSSV]"},
-        {"[Điền họ tên thành viên 6]", "[Điền MSSV]"},
-        {"[Điền họ tên thành viên 7]", "[Điền MSSV]"},
-        {"[Điền họ tên thành viên 8]", "[Điền MSSV]"},
-        {"[Điền họ tên thành viên 9]", "[Điền MSSV]"},
-        {"[Điền họ tên thành viên 10]", "[Điền MSSV]"}
+        {"[Malang Trần Ngọc Kiên]", "[N24DCAT043]"},
+        {"[Lê Tuấn Minh]", "[N24DCAT047]"},
+        {"[Trương Trần Hoàng Sang]", "[N24DCAT067]"},
+        {"[Võ Thanh Tâm]", "[N24DCAT069]"},
+        {"[Lưu Phi Hiếu]", "[N24DCAT026]"},
+        {"[Phan Ngọc Hải]", "[N22DCAT023]"},
+        {"[Nguyễn Quốc Vương]", "[N22DCAT068]"},
+        {"[Nguyễn Trung Nguyên ]", "[N24DCAT039]"},
+        {"[Bùi Lê Lâm ]", "[N24DCAT044]"},
+        {"[Bùi Thanh Sơn]", "[N24DCAT068]"}
     };
 
     public AboutDialog(Window owner) {
         super(owner, "Thông tin nhóm thực hiện", ModalityType.APPLICATION_MODAL);
         setLayout(new BorderLayout(10, 10));
-        add(new JLabel("Nhóm 1 - Đề tài: Library Manager"), BorderLayout.NORTH);
+        add(new JLabel("Nhóm 9 - Đề tài: Library Manager"), BorderLayout.NORTH);
         String[] columns = {"STT", "Họ và tên", "MSSV"};
         Object[][] members = new Object[TEAM_MEMBERS.length][3];
         for (int i = 0; i < TEAM_MEMBERS.length; i++) {
