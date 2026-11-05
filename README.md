@@ -1,6 +1,6 @@
 # Library Manager - Nhóm 9
 
-Ứng dụng quản lý thư viện viết bằng Java Swing, package `vn.edu.ptit.oop.nhom09`.
+Ứng dụng quản lý thư viện viết bằng Java Swing, package `vn.edu.ptit.oop.nhom9`.
 
 ## Đối chiếu bảng phân công
 
@@ -16,6 +16,7 @@
 | Sang | Thống kê & Đồ thị | `ChartWindow`, `ChartHelper` |
 | Hải | Kiểm thử, xử lý lỗi & Báo cáo | `ItemNotFoundException`, `InvalidDataException`, `OverdueException`, `AboutDialog`, `LibraryManagerTest` |
 | Kiên | Giao diện chính | `Main`, `MainWindow` , `BaseWindow` |
+
 ## Chức năng
 
 - Quản lý sách, tạp chí và luận văn.
@@ -32,6 +33,5 @@
 ## Công nghệ
 
 - JDK 17 trở lên.
-- Maven.
 - Swing.
-- JFreeChart 1.5.6.
+- JFreeChart 1.5.4.jar
