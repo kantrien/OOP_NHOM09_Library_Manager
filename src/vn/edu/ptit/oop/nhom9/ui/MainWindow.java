@@ -53,7 +53,7 @@ public class MainWindow extends BaseWindow {
 
     public MainWindow(InMemoryLibraryRepository repository, LibraryService libraryService,
             LoanService loanService, FileService persistenceService) {
-        super("Nhóm 1 - Quản lý Thư viện", 1150, 720);
+        super("Nhóm 9 - Quản lý Thư viện", 1150, 720);
         this.repository = repository;
         this.libraryService = libraryService;
         this.loanService = loanService;
